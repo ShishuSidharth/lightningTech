@@ -1,0 +1,42 @@
+div{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lis{
+color:rgba(125, 133, 146, 1) ;
+margin-left: 0px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.82px;
+
+list-style: none;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    
+    width: 186.62px;padding-left: 5px;
+height: 46.02px;
+align-items: center;
+gap: 0px;
+border-radius: 10px ;
+color:rgba(125, 133, 146, 1) ;
+margin-left: 5px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.82px;
+
+list-style: none;
+
+}
+span{
+    margin-left: 20px;
+}
+.active{
+    background-color: rgba(63, 140, 255, .1);
+    color:rgba(0, 174, 239, 1) ;
+}
