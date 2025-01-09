@@ -1,11 +1,11 @@
 import React from 'react'
 import './box.css'
-function Box(props) {
+function Box({ title, fig, perc, bg }) {
   return (
-    <div className="box flex flex-col justify-start text-left">
-      <h4 className="text-left">{props.title}</h4>
+    <div style={{ backgroundColor: bg }} className={`box flex flex-col justify-start text-left p-4 `} >
+      <h4 className="text-left">{title}</h4>
       <div className="num flex">
-        <span>{props.fig}</span><span>{props.perc}</span>
+        <span>{fig}</span><span>{perc}</span>
       </div>
     </div>
   )
