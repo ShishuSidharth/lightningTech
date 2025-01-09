@@ -31,7 +31,7 @@ font-weight: 600;
 line-height: 21.82px;
 
 list-style: none;
-
+cursor: pointer;
 }
 span{
     margin-left: 20px;
