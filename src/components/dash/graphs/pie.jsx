@@ -25,6 +25,7 @@ function PieChart({ chartData }) {
         legend:{
             position:"bottom",
             labels:{
+                usePointStyle: true,   
             pointStyle:'circle',
         }
         },

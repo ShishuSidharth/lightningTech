@@ -1,8 +1,9 @@
 .box{
-   
+   display: flex;
+   align-items: flex-start;
     width: 202px;
 height: 112px;
-
+text-align: left;
 padding: 24px;
 margin: 20px;
 border-radius: 16px;

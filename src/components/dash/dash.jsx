@@ -52,25 +52,25 @@ function Dash() {
         />
         <Box 
           
-          title="total_expenses" 
+          title="Total Expenses" 
           fig={exp} // Summing the sales
           bg="rgba(226,229,234,1)"
         />
         <Box 
           
-          title="net_profit" 
+          title="Net Profit" 
           fig={np} // Summing the sales
           bg="rgba(217,242,251,1)"
         />
         <Box 
            
-          title="due_amount" 
+          title="Due Amount" 
           fig={dm} // Summing the sales
           bg="rgba(226,229,234,1)"
         />
         <Box 
            
-          title="payment_received" 
+          title="Payment Received" 
           fig={pr} // Summing the sales
           bg="rgba(217,242,251,1)"
         />

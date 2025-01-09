@@ -18,6 +18,24 @@ ChartJS.register(
 )
 function LineChart({ chartData }) {
     const options={
+        plugins:{
+          legend:{
+            position:"bottom"
+          }
+        },
+            scales: {
+                x: {
+                  grid: {
+                    display: false, // Removes gridlines for the X-axis
+                  },
+                },
+                y: {
+                  grid: {
+                    display: false, // Removes gridlines for the Y-axis
+                  },
+                },
+            } 
+            
         
     }
   return <Line options={options} data={chartData} />;

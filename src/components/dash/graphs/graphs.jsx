@@ -50,8 +50,10 @@ function Graphs() {
       {
         label: "Supplier Records",
         data: supplierData,
-        backgroundColor: "rgba(75,192,192,0.2)",
+        backgroundColor: "rgba(69, 151, 234, 0.1)",
         borderColor: "black",
+         // Light shading color
+        fill: true,
         borderWidth: 1,
         tension: 0.2,
       },
@@ -73,11 +75,15 @@ function Graphs() {
       {
         data: pieData,
         backgroundColor: [
-          "rgba(54,162,235,1)",
-          "rgba(75,192,192,1)",
-          "rgba(201,203,207,1)",
-          "rgba(255,159,64,1)",
-          "rgba(153,102,255,1)",
+          "linear-gradient(180deg, rgba(0,57,93,1) 0%, rgba(6,80,128,0.6) 100%)",
+
+           
+          "rgba(217, 242, 251, 1)",
+
+          "rgba(226, 229, 234, 1)",
+
+         " rgba(144, 220, 249, 1)",
+          "rgba(0, 57, 93, 1)"
         ],
         borderColor: "white",
         borderWidth: 2,
@@ -86,11 +92,13 @@ function Graphs() {
   };
 
   return (
-    <div className="flex flex-row">
-      <div style={{ width: 700, marginBottom: 50 }}>
+    <div className="flex flex-row ">
+      <div style={{ width: 800}}
+      className="bg-white p-4 rounded-lg h-[400px]">
         <LineChart chartData={lineChartData} />
       </div>
-      <div style={{ width: 400 }}>
+      <div style={{ width: 400, marginLeft:20 }}
+      className="bg-white p-4 rounded-lg h-[400px]">
         <PieChart chartData={pieChartData} />
       </div>
     </div>
