@@ -92,7 +92,7 @@ function Graphs() {
   };
 
   return (
-    <div className="flex flex-row ">
+    <div className="flex flex-row w-[80vw] justify-around">
       <div style={{ width: 800}}
       className="bg-white p-4 rounded-lg h-[400px]">
         <LineChart chartData={lineChartData} />

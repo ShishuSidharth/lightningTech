@@ -41,8 +41,8 @@ function Dash() {
     
   return (
     <div>
-      <div className="text-[30px] ">Overview</div>
-      <div className="boxes flex flex-row p-4 justify-evenly">
+      <div className="inline text-[30px] w-[80vw] text-left pl-[90px]">Overview</div>
+      <div className="boxes flex flex-row p-4 justify-evenly w-[80vw]">
         {/* Make sure to properly handle `key` */}
         <Box 
           
@@ -75,7 +75,7 @@ function Dash() {
           bg="rgba(217,242,251,1)"
         />
       </div>
-      <Graphs />
+      <Graphs  className="w-[80vw]"/>
     </div>
   );
 }
